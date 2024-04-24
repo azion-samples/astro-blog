@@ -1,0 +1,58 @@
+{
+  "name": "astro-blog-",
+  "bucket": "astro-blog-",
+  "preset": "astro",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424171612",
+  "not-first-run": true,
+  "function": {
+    "id": 20763,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20398,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713979261,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713978002,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127179,
+      "origin-key": "8abcd58c-f9b1-4e30-b00c-86a79efaf880",
+      "name": "astro-blog-_single"
+    },
+    {
+      "origin-id": 127181,
+      "origin-key": "3e7be87e-ca5a-46bd-8304-45849bd7065d",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238441,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238442,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238443,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
